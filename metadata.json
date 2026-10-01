@@ -1,0 +1,6 @@
+{
+  "name": "Cascade Regional Water District",
+  "description": "Official public utility portal providing adopted water rates, facility locations, water quality standards, and district mission, vision, and governance.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

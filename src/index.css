@@ -1,0 +1,36 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --font-heading: 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
+    --font-sans: 'Public Sans', system-ui, -apple-system, sans-serif;
+    --brand-blue: #0052cc;
+    --brand-blue-dark: #0747a6;
+    --brand-green: #00875a;
+    --brand-green-vivid: #00a859;
+    --brand-black: #0a0a0a;
+  }
+
+  body {
+    font-family: var(--font-sans);
+    color: #0a0a0a;
+    background-color: #ffffff;
+    -webkit-font-smoothing: antialiased;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    font-family: var(--font-heading);
+    letter-spacing: -0.02em;
+  }
+
+  /* Strict zero-radius enforcement for sharp professional aesthetic (Disabled for Chevron redesign) */
+  /* *, *::before, *::after {
+    border-radius: 0px !important;
+  } */
+}
+
+/* Custom crisp focus rings and chevron-style sharp accents */
+:focus-visible {
+  outline: 2px solid #0052cc;
+  outline-offset: 2px;
+}
